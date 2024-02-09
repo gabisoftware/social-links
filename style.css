@@ -25,12 +25,13 @@ img#foto {
     border-radius: 50%;
     size: 25px;
     max-width: 100px;
+    margin-top: -15px;
 }
 
 main {
     background-color: rgb(17, 17, 17);
     width: 400px;
-    height: 630px;
+    height: 610px;
     margin: auto;
     border-radius: 15px;
 }
@@ -106,6 +107,15 @@ main {
 
 p {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F51801;
+}
+
+a:hover {
+    color: #CA3322;
 }
 
 @media screen and (max-width: 768px) {
