@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(fonts/Inter-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(24, 21, 21);
+    font: normal normal 1em "Inter-Regular", sans-serif;
+    color: white;
+    overflow: hidden; /*remove a barra de rolagem */
+}
+
+.container {
+    justify-content: center; /* alinha os itens horizontalmente */
+    display: flex;
+    align-items: center; /* alinha os itens verticalmente */
+    margin: 0; /* remove os padrões de margem do corpo */
+}
+
+img#foto {
+    border-radius: 50%;
+    size: 25px;
+    max-width: 100px;
+}
+
+main {
+    background-color: rgb(17, 17, 17);
+    width: 400px;
+    height: 630px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.nome {
+    color: #F51801;
+    font-size: 29px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #CA3322;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.frase {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.github {
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 55px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.2px;
+    margin-top: -47px;
+    margin-bottom: 10px; /* adiciona uma margem para que as <div> fiquem afastadas */
+}
+
+.frontendmentor {
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 55px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.2px;
+    margin-bottom: 10px;
+}
+
+.linkedin {
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 55px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.2px;
+    margin-bottom: 10px;
+}
+
+.twitter {
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 55px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.2px;
+    margin-bottom: 10px;
+}
+
+.instagram {
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 55px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.2px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+    }
+}
