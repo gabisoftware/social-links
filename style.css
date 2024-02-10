@@ -72,6 +72,11 @@ main {
     padding: 0.2px;
     margin-top: -47px;
     margin-bottom: 10px; /* adiciona uma margem para que as <div> fiquem afastadas */
+    transition: background-color 0.2s ease; /* retarda a transição de cor do hover estabelecido em 3 milissegundos */
+}
+
+.github:hover {
+    background-color: black; /* hover que muda a cor do botão para preto ao passar o mouse sobre ele */
 }
 
 .frontendmentor {
@@ -82,6 +87,11 @@ main {
     border-radius: 10px;
     padding: 0.2px;
     margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.frontendmentor:hover {
+    background-color: black;
 }
 
 .linkedin {
@@ -92,6 +102,11 @@ main {
     border-radius: 10px;
     padding: 0.2px;
     margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.linkedin:hover {
+    background-color: black
 }
 
 .twitter {
@@ -102,6 +117,11 @@ main {
     border-radius: 10px;
     padding: 0.2px;
     margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.twitter:hover {
+    background-color: black
 }
 
 .instagram {
@@ -112,6 +132,11 @@ main {
     border-radius: 10px;
     padding: 0.2px;
     margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.instagram:hover {
+    background-color: black
 }
 
 p {
