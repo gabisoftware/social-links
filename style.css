@@ -36,12 +36,13 @@ img#foto {
 }
 
 main {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(37, 37, 37);
     width: 400px;
     height: 610px;
     margin: auto;
     border-radius: 15px;
     /* tamanho da sombra para X, Y, ESPALHAMENTO e COR */
+    margin-top: 115px;
 }
 
 .nome {
