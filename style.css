@@ -14,11 +14,16 @@
     font-style: normal;
 }
 
-body {
+html, body {
     background-color: rgb(14, 14, 14);
     font: normal normal 1em "Inter-Regular", sans-serif;
     color: white;
     overflow: hidden; /*remove a barra de rolagem */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .container {
@@ -36,13 +41,13 @@ img#foto {
 }
 
 main {
+    display: block;
     background-color: rgb(37, 37, 37);
     width: 400px;
     height: 610px;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 15px;
     /* tamanho da sombra para X, Y, ESPALHAMENTO e COR */
-    margin-top: 115px;
 }
 
 .nome {
